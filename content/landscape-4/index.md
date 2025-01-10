@@ -7,5 +7,3 @@ tags:
   - landscape
 featured: true
 ---
-
-Credits: [Unsplash](https://unsplash.com/fr/photos/maison-brune-pres-dun-plan-deau-zAjdgNXsMeg)

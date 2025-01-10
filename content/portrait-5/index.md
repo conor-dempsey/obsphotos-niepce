@@ -6,5 +6,3 @@ photo_alt: Portrait 5
 tags:
   - portrait
 ---
-
-Credits: [Unsplash](https://unsplash.com/fr/photos/donna-sorridente-che-indossa-un-top-con-colletto-gessato-bianco-e-nero-QXevDflbl8A)

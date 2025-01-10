@@ -7,4 +7,3 @@ tags:
   - misc
 ---
 
-Credits: [Unsplash](https://unsplash.com/fr/photos/un-groupe-de-bougies-allumees-assises-les-unes-a-cote-des-autres-F9oJWM639mU)

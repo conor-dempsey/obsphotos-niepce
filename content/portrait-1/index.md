@@ -7,5 +7,3 @@ tags:
   - portrait
 featured: true
 ---
-
-Credits: [Unsplash](https://unsplash.com/fr/photos/donna-che-fissa-direttamente-la-fotocamera-vicino-al-muro-rosa-bqe0J0b26RQ)

@@ -7,4 +7,3 @@ tags:
   - portrait
 ---
 
-Credits: [Unsplash](https://unsplash.com/fr/photos/uomo-che-indossa-una-camicia-bianca-con-scollo-a-v-iFgRcqHznqg)
