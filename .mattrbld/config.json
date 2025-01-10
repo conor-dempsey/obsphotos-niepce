@@ -1,0 +1,123 @@
+{
+  "autoquotes": null,
+  "brandColors": [],
+  "corsProxy": "/corsprox",
+  "name": "obsphotos",
+  "sidebar": [
+    {
+      "separator": true
+    },
+    {
+      "label": "Dashboard",
+      "icon": "grid",
+      "target": {
+        "name": "Project"
+      },
+      "protected": true
+    },
+    {
+      "label": "Media Library",
+      "icon": "image-stack",
+      "target": {
+        "name": "Project.MediaLibrary"
+      },
+      "protected": true
+    },
+    {
+      "label": "Settings",
+      "icon": "settings",
+      "target": {
+        "name": "Project.Settings"
+      },
+      "onlyPrivileged": true,
+      "protected": true
+    },
+    {
+      "icon": null,
+      "label": "content",
+      "target": {
+        "name": "Project.Collection",
+        "params": {
+          "path": "/.mattrbld/collections/content.json"
+        }
+      },
+      "showInDashboard": true
+    }
+  ],
+  "slugifyOptions": null,
+  "customRoles": [],
+  "draftsDir": null,
+  "previewUrl": null,
+  "languages": [],
+  "media": {
+    "advanced": true,
+    "customFields": [
+      {
+        "type": "text",
+        "default": null,
+        "icon": "text-input",
+        "key": "alt",
+        "label": "Alternative Text",
+        "localised": false,
+        "options": {
+          "wrapping": true,
+          "multiline": false
+        },
+        "validation": {
+          "enforceMinMax": true,
+          "max": null,
+          "min": null,
+          "regex": null,
+          "regexError": null,
+          "required": false,
+          "unit": "length"
+        },
+        "value": null,
+        "version": 1,
+        "visibility": {
+          "hidden": false,
+          "showByValue": {
+            "field": null
+          }
+        }
+      },
+      {
+        "type": "text",
+        "default": null,
+        "icon": "text-input",
+        "key": "title",
+        "label": "Title",
+        "localised": false,
+        "options": {
+          "wrapping": true,
+          "multiline": false
+        },
+        "validation": {
+          "enforceMinMax": true,
+          "max": null,
+          "min": null,
+          "regex": null,
+          "regexError": null,
+          "required": false,
+          "unit": "length"
+        },
+        "value": null,
+        "version": 1,
+        "visibility": {
+          "hidden": false,
+          "showByValue": {
+            "field": null
+          }
+        }
+      }
+    ],
+    "dir": "/photos",
+    "maxSize": 0.5,
+    "outputPath": null,
+    "permissions": {
+      "everybody": [
+        "everything"
+      ]
+    }
+  }
+}

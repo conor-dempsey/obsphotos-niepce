@@ -1,0 +1,14 @@
+{
+  "title": "Beach in Zanzibar",
+  "photo": {
+    "src": "/photos/site-test-11-of-15.jpeg",
+    "alt": "A beach in Zanzibar, Tanzania, with a bright sky with light clouds, bright blue and green sea, with some boats in the water",
+    "title": "Beach in Zanzibar"
+  },
+  "photo_alt": "A beach in Zanzibar, Tanzania, with a bright sky with light clouds, bright blue and green sea, with some boats in the water",
+  "tags": [
+    "landscape"
+  ],
+  "content": "<p>That was a lovely day, good memories!</p>",
+  "___mb_schema": "/.mattrbld/schemas/photo.json"
+}
