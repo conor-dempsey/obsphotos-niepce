@@ -77,31 +77,21 @@ layout: layouts/base.njk
 
 		{{ content | safe }}
 	</div>
-	{%- if collections.posts %}
+	{# {%- if collections.posts %}
 	{%- set previousPost = collections.posts | getPreviousCollectionItem %}
 	{%- set nextPost = collections.posts | getNextCollectionItem %}
 	{%- if nextPost or previousPost %}
 	<hr>
 	<h2>Other related pictures</h2>
-	<ul class="footer-nav">
-		{%- if previousPost %}
-		<li class="footer-nav-prev">
-			<a href="{{ previousPost.url }}">
-				{% image "../"+previousPost.url+"/"+previousPost.data.photo , "" %}
-				<span class="post-title">{% if previousPost.data.title %}{{ previousPost.data.title }}{% else %}<code>{{ previousPost.url }}</code>{% endif %}</span>
-			</a>
-		</li>
-		{% endif %}
-		{%- if nextPost %}
-		<li class="footer-nav-next">
-			<a href="{{ nextPost.url }}">
-				{% image "../"+nextPost.url+"/"+nextPost.data.photo , "" %}
-				<span class="post-title">{% if nextPost.data.title %}{{ nextPost.data.title }}{% else %}<code>{{ nextPost.url }}</code>{% endif %}</span>
-			</a>
-		</li>
-		{% endif %}
-	</ul>
+		<div class="footer-nav footer-nav-container">
+			{%- if previousPost %}
+				<a href="{{ previousPost.url }}" class="arrow arrow-left" role="button"></a>
+			{% endif %}
+			{%- if nextPost %}
+				<a href="{{ nextPost.url }}" class="arrow arrow-right" role="button"></a>
+			{% endif %}
+		</div>
 	{%- endif %}
-	{%- endif %}
+	{%- endif %} #}
 
 </article>
