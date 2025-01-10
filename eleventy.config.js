@@ -90,6 +90,6 @@ module.exports = function (eleventyConfig) {
 			data: "../_data",
 			output: "_site",
 		},
-		// pathPrefix: "/",
+		pathPrefix: "/obsphotos-niepce",
 	}
 }
