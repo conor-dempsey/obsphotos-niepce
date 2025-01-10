@@ -11,8 +11,6 @@ title: Hello, I'm the photographer
 
 ## About me
 
-Exercitation, labore ea eu dolor. Eu, dolor elit minim. Minim nostrud nulla, culpa eiusmod. Culpa eiusmod esse quis adipiscing, fugiat. Quis adipiscing fugiat nulla elit id voluptate elit. Fugiat nulla elit id, voluptate. Id voluptate elit elit enim nisi, dolor.
+I'm Abhishek Bhattacharyya, a photographer and ... interested in ... 
 
-Labore ea eu dolor elit minim nostrud nulla. Eu, dolor elit minim. Minim nostrud nulla, culpa eiusmod. Culpa eiusmod esse quis adipiscing, fugiat. Quis adipiscing fugiat nulla elit id voluptate elit.
-
----
+You can contact me at ... 
