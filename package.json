@@ -1,7 +1,7 @@
 {
-	"name": "Niepce",
+	"name": "Obs Photos",
 	"version": "0.3.0",
-	"description": "11ty starter kit for a portfolio site",
+	"description": "Abhishek's photography site",
 	"scripts": {
 		"build": "npx @11ty/eleventy",
 		"start": "npx @11ty/eleventy --serve --quiet",
@@ -13,18 +13,18 @@
 		"url": "https://github.com/conor-dempsey/obsphotos-niepce"
 	},
 	"author": {
-		"name": "GoOz",
-		"email": "gooz@foojin.com",
-		"url": "https://www.foojin.com/"
+		"name": "Sadhbh",
+		"email": "",
+		"url": ""
 	},
 	"license": "MIT",
 	"engines": {
 		"node": ">=16"
 	},
 	"bugs": {
-		"url": "https://github.com/GoOz/Niepce/issues"
+		"url": ""
 	},
-	"homepage": "https://github.com/GoOz/Niepce#readme",
+	"homepage": "",
 	"devDependencies": {
 		"@11ty/eleventy": "2.0.1",
 		"@11ty/eleventy-img": "^3.0.1",
