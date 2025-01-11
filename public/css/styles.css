@@ -305,10 +305,12 @@ a.icon-only > * {
 =========================================*/
 .main {
 	display: grid;
-	height: 100dvh;
-	grid-template-columns: minmax(auto, 12.5rem) auto;
-	grid-template-rows: 1fr;
-	grid-template-areas: "Sidebar Content";
+	width: 100dvw;
+	grid-template-columns: 1fr;
+	grid-template-rows: minmax(12.5rem, auto) auto;
+	grid-template-areas: 
+		"Sidebar" 
+		"Content";
 }
 
 .sidebar {
@@ -486,6 +488,7 @@ a.icon-only > * {
 .sidebar {
 	display: flex;
 	flex-direction: column;
+	flex-wrap: wrap;
 	padding: 1rem;
 }
 a.logo {
@@ -494,7 +497,7 @@ a.logo {
 	text-transform: uppercase;
 	text-decoration: none;
 	font-weight: bold;
-	font-size: 2em;
+	font-size: 1.2em;
 	word-wrap: break-word;
 	color: var(--foreground);
 	margin-block-end: 1rem;
@@ -525,13 +528,21 @@ a.logo svg {
 }
 
 .nav {
+	display: flex;
+	flex-direction: column;
 	box-sizing: border-box;
 	margin-block-end: auto;
 }
+
+.nav-list{
+	display: flex;
+}
+
 .nav > ul {
 	padding-block-start: 1rem;
 }
 .nav ul {
+	display: flex;
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -541,6 +552,7 @@ a.logo svg {
 	font-size: 0.9em;
 }
 .nav-item {
+	/* display: flex; */
 	margin-block-end: 1rem;
 }
 .nav-item a {

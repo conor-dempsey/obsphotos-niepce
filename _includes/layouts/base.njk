@@ -55,24 +55,24 @@
 		<div class="main{% if splashscreen and niepce.splash === 'true' %} splash{% endif %}">
 			<header class="sidebar">
 				<a href="/" class="logo">
-					{% if niepce.logo %}
+					{# {% if niepce.logo %}
 					{% if '-inline.svg' in niepce.logo %}
 					{{ niepce.logo | svgContents | safe }}
 					{% else %}
 					<img src="{{ niepce.logo }}" alt="{{ metadata.title }}">
 					{% endif %}
-					{% else %}
+					{% else %} #}
 					{{ metadata.title }}
-					{% endif %}
+					{# {% endif %} #}
 				</a>
 				<button class="menu" type="button">
 					{% svg "burger" %}
 				</button>
 				<nav class="nav">
 					<h2 class="visually-hidden">Navigation Menu</h2>
-					<ul>
+					<ul class="nav-list">
 					{%- for entry in collections.pages | eleventyNavigation %}
-						<li class="nav-item">
+						<li class="nav-item-page">
 							<a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a>
 						</li>
 					{%- endfor %}
